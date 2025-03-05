@@ -9,10 +9,10 @@ def calculate_weighted_marks(marks, weight, total_marks):
 def aggregate_calculator():
     st.title("Aggregate Calculator")
 
-    ssc_marks = st.number_input("Enter SSC marks:", min_value=0)
-    ssc_total = st.number_input("Enter total SSC marks:", min_value=0)
-    hssc_marks = st.number_input("Enter HSSC marks:", min_value=0)
-    hssc_total = st.number_input("Enter total HSSC marks:", min_value=0)
+    ssc_marks = st.text_input("Enter SSC marks:", min_value=0)
+    ssc_total = st.text_input("Enter total SSC marks:", min_value=0)
+    hssc_marks = st.text_input("Enter HSSC marks:", min_value=0)
+    hssc_total = st.text_input("Enter total HSSC marks:", min_value=0)
     ba_bsc_marks = st.text_input("Enter BA/BSc marks (leave blank if not applicable):")
     ba_bsc_total = st.text_input("Enter total BA/BSc marks (leave blank if not applicable):")
     bs_marks = st.text_input("Enter BS marks (leave blank if not applicable):")
